@@ -1,19 +1,24 @@
-#!name= e充电_去广告
-#!desc= e充电_去广告
-#!author= ChangXaoqiang
-#!icon= https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
+#!name = e充电
+#!desc = 过滤e充电广告
+#!openUrl = https://apps.apple.com/app/id951610982
+#!author = ChangXaoqiang
+#!tag = 去广告
+#!system = 
+#!system_version = 
+#!loon_version = 3.2.4(787)
+#!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
+#!icon = https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
+#!date = 2024-12-30 18:41
 
-[General]
-bypass-tun =
-skip-proxy =
-real-ip =
-dns-server =
+[Rule]
+DOMAIN, cdn-evone.oss-cn-beijing.aliyuncs.com, REJECT
 
-[rewrite]
-^https?:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/171487559706.png - reject
-^https?:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/1702692367539.jpeg - reject
-^http?:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ - reject
-^https?:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ - rejec
+[Rewrite]
+^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/171487559706.png reject
+^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/1702692367539.jpeg reject
+^http:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject
 
-[MITM]
-hostname=cdn-evone.oss-cn-beijing.aliyuncs.com, cdn-evone-oss.echargenet.com, api-evone.echargenet.com
+
+[MitM]
+hostname = cdn-evone.oss-cn-beijing.aliyuncs.com, cdn-evone-oss.echargenet.com, api-evone.echargenet.com
