@@ -1,0 +1,19 @@
+#!name= e充电_去广告
+#!desc= e充电_去广告
+#!author= ChangXaoqiang
+#!icon= https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
+
+[General]
+bypass-tun =
+skip-proxy =
+real-ip =
+dns-server =
+
+[rewrite]
+^https?:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/171487559706.png - reject
+^https?:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/1702692367539.jpeg - reject
+^http?:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ - reject
+^https?:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ - rejec
+
+[mitm]
+hostname=cdn-evone.oss-cn-beijing.aliyuncs.com, cdn-evone-oss.echargenet.com, api-evone.echargenet.com
