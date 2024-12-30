@@ -15,5 +15,5 @@ dns-server =
 ^http?:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ - reject
 ^https?:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ - rejec
 
-[mitm]
+[MITM]
 hostname=cdn-evone.oss-cn-beijing.aliyuncs.com, cdn-evone-oss.echargenet.com, api-evone.echargenet.com
