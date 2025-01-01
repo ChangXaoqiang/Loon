@@ -6,18 +6,22 @@
 #!date = 2025-1-1 23:38
 
 [Rewrite]
+^https:\/\/adash-evone\.echargenet\.com\/ reject
+^https:\/\/errlog\.umeng\.com\/ reject
 ^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/171487559706.png reject
 ^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/1702692367539.jpeg reject
-^http:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ reject
-^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject
-^https:\/\/adash-evone\.echargenet\.com\/upload\/ reject
-^https:\/\/adash-evone\.echargenet\.com\/rest\/remote\/packet\/post\/startup\/ reject
 ^https:\/\/yxyylog\.echargenet\.com\/ reject
+^http:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/sgcc\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/resource\/activity\/a_newAct_*.png  reject
+^https:\/\/cdn-evone-oss\.echargenet\.com\/templateH5\/ reject
+^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/visualizationH5\/ reject
+^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/echargelife\/ reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.merchant\.list\/ reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.news\.pagelistapp\/ reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.activity\.command\.queryallrule\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.internal\.registeractivity\.querybyareaid\/ reject
-^https:\/\/cdn-evone-oss\.echargenet\.com\/templateH5\/ reject
 
 [MitM]
-hostname = cdn-evone.oss-cn-beijing.aliyuncs.com, cdn-evone-oss.echargenet.com, api-evone.echargenet.com, adash-evone.echargenet.com, yxyylog.echargenet.com, api-evone.echargenet.com
+hostname = cdn-evone.oss-cn-beijing.aliyuncs.com, cdn-evone-oss.echargenet.com, api-evone.echargenet.com, adash-evone.echargenet.com, yxyylog.echargenet.com, api-evone.echargenet.com, errlog.umeng.com
