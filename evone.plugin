@@ -3,7 +3,7 @@
 #!author = ChangXaoqiang
 #!tag = 去广告
 #!icon = https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
-#!date = 2025-1-2 00:45
+#!date = 2025-1-2 00:56
 
 [Rewrite]
 ^https:\/\/adash-evone\.echargenet\.com\/ reject
@@ -14,13 +14,15 @@
 ^https:\/\/yxyylog\.echargenet\.com\/ reject
 ^http:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/sgcc\/ reject
-^https:\/\/cdn-evone-oss\.echargenet\.com\/resource\/activity\/a_newAct_*.png  reject
+^https:\/\/cdn-evone-oss\.echargenet\.com\/resource\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/templateH5\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/visualizationH5\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/echargelife\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.merchant\.list\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.news\.pagelistapp\/ reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.efriend\.topic\.listrecommenttopic\/ reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.efriend\.post\.listapppost\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.activity\.command\.queryallrule\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.internal\.registeractivity\.querybyareaid\/ reject
