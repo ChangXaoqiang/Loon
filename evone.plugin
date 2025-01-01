@@ -1,9 +1,9 @@
-#!name = e充电
+#!name = e充电 去广告
 #!desc = 过滤e充电广告
 #!author = ChangXaoqiang
 #!tag = 去广告
 #!icon = https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
-#!date = 2025-1-2 10:04
+#!date = 2025-1-2 10:06
 
 [Rewrite]
 ^https:\/\/adash-evone\.echargenet\.com\/ reject
@@ -17,7 +17,7 @@
 #^https:\/\/cdn-evone-oss\.echargenet\.com\/resource\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/templateH5\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/visualizationH5\/ reject
-^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/echargelife\/ reject
+#^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/echargelife\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.merchant\.list\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.news\.pagelistapp\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject
