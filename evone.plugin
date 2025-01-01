@@ -3,12 +3,9 @@
 #!openUrl = https://apps.apple.com/app/id951610982
 #!author = ChangXaoqiang
 #!tag = 去广告
-#!system = 
-#!system_version = 
-#!loon_version = 3.2.4(787)
 #!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
 #!icon = https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
-#!date = 2024-12-30 18:41
+#!date = 2025-1-1 23:11
 
 [Rewrite]
 ^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/171487559706.png reject
