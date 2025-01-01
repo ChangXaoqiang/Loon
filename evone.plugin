@@ -10,15 +10,20 @@
 #!icon = https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
 #!date = 2024-12-30 18:41
 
-[Rule]
-DOMAIN, cdn-evone.oss-cn-beijing.aliyuncs.com, REJECT
-
 [Rewrite]
 ^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/171487559706.png reject
 ^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/1702692367539.jpeg reject
 ^http:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject
-
+^https:\/\/adash-evone\.echargenet\.com\/upload\/ reject
+^https:\/\/adash-evone\.echargenet\.com\/rest\/remote\/packet\/post\/startup\/ reject
+^https:\/\/yxyylog\.echargenet\.com\/ reject
+^https:\/\/cdn-evone-oss\.echargenet\.com\/sgcc\/ reject
+^https:\/\/cdn-evone-oss\.echargenet\.com\/resource\/activity\/a_newAct_*.png  reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.activity\.command\.queryallrule\/ reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.internal\.registeractivity\.querybyareaid\/ reject
+^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/ reject
+^https:\/\/cdn-evone-oss\.echargenet\.com\/templateH5\/ reject
 
 [MitM]
-hostname = cdn-evone.oss-cn-beijing.aliyuncs.com, cdn-evone-oss.echargenet.com, api-evone.echargenet.com
+hostname = cdn-evone.oss-cn-beijing.aliyuncs.com, cdn-evone-oss.echargenet.com, api-evone.echargenet.com, adash-evone.echargenet.com, yxyylog.echargenet.com, api-evone.echargenet.com
