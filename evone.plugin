@@ -3,7 +3,7 @@
 #!author = ChangXaoqiang
 #!tag = 去广告
 #!icon = https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
-#!date = 2025-1-2 00:02
+#!date = 2025-1-2 00:11
 
 [Rewrite]
 ^https:\/\/adash-evone\.echargenet\.com\/ reject
@@ -17,6 +17,7 @@
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/templateH5\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/visualizationH5\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/echargelife\/ reject
+^https:\/\/api-evone\.echargenet\.com\/gw\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.merchant\.list\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.news\.pagelistapp\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject
