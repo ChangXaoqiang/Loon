@@ -23,7 +23,7 @@
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.activity\.command\.queryallrule\/ reject
 ^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.internal\.registeractivity\.querybyareaid\/ reject
-^https:\/\/terms\.alicdn\.com\/ reject
+#^https:\/\/terms\.alicdn\.com\/ reject
 ^https:\/\/www\.umeng\.com\/ reject
 
 [MitM]
