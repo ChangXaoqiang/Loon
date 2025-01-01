@@ -15,8 +15,8 @@
 ^https:\/\/yxyylog\.echargenet\.com\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/sgcc\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/resource\/activity\/a_newAct_*.png  reject
-^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.activity\.command\.queryallrule\/ reject
-^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.internal\.registeractivity\.querybyareaid\/ reject
+#^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.activity\.command\.queryallrule\/ reject
+#^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.h5gateway\.internal\.registeractivity\.querybyareaid\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/yingxiao\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/templateH5\/ reject
 
