@@ -3,13 +3,14 @@
 #!author = ChangXaoqiang
 #!tag = 去广告
 #!icon = https://pp.myapp.com/ma_icon/0/icon_42284428_1720767893/256
-#!date = 2025-1-2 00:18
+#!date = 2025-1-2 00:45
 
 [Rewrite]
 ^https:\/\/adash-evone\.echargenet\.com\/ reject
 ^https:\/\/errlog\.umeng\.com\/ reject
-^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/171487559706.png reject
-^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/1702692367539.jpeg reject
+^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/ reject
+#^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/171487559706.png reject
+#^https:\/\/cdn-evone\.oss-cn-beijing\.aliyuncs\.com\/cms_img\/1702692367539.jpeg reject
 ^https:\/\/yxyylog\.echargenet\.com\/ reject
 ^http:\/\/cdn-evone-oss\.echargenet\.com\/evone-materialpic\/ reject
 ^https:\/\/cdn-evone-oss\.echargenet\.com\/sgcc\/ reject
